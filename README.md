@@ -16,6 +16,7 @@ The JavaScript file contains click handlers for buttons in the UI to get, set, r
 *Prerequisites*
 
 This sample requires that you have the following:
+
 * Visual Studio 2012, with the apps for Office project templates. 
 * A computer running Exchange 2013 with at least one email account, or an Office 365 developer account. 
 * Familiarity with JavaScript programming and web services. 
@@ -24,6 +25,7 @@ This sample requires that you have the following:
 *Key components of the sample*
 
 The sample solution contains the following files:
+
 * CustomProperties project 
   * CustomProperties.xml – The manifest file for the mail add-in for Outlook. 
 * CustomPropertiesWeb project
@@ -39,6 +41,7 @@ The mail add-in will be activated on any email message in the user's Inbox. You 
 *Build the sample*
 
 Press F5 to build and deploy the sample application. Complete the following tasks to deploy the application:
+
 1. Connect to an Exchange account by providing the email address and password for an Exchange 2013 server. 
 2. Allow the server to configure the email account. 
 
@@ -49,6 +52,7 @@ You run and test the sample in the web browser that is started by Visual Studio 
 If you are running the sample on an Exchange server that is using the default self-signed certificate, you will receive a certificate error when the web browser starts. After you verify that the web browser is opening the correct URL by looking at the web address, you can click Continue to this Web site to start Outlook Web App.
 
 Follow these steps to run the sample:
+
 1. Log on to the email account by entering the account name and password. 
 2. Select a message in the Inbox. 
 3. Wait for the App bar to appear over the message. 
