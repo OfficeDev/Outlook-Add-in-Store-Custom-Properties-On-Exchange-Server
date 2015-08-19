@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>CustomProperties</title>
+    <link rel="stylesheet" type="text/css" href="Styles/Base/Office.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/App.css" />
+    <script src="Scripts/Lib/MicrosoftAjax.js"></script>
+    <script src="Scripts/Lib/Office.js"></script>
+    <script src="Scripts/jquery-1.6.2.js"></script>
+
+    <script src="Scripts/CustomProperties.js"></script>
+</head>
+<body>
+    <div id="SectionContent">
+        <h1 id="page">Custom properties</h1>
+        <div id="nav" style="padding: 0px; margin: 0px">
+            <table>
+                <tr>
+                    <td><a id="storelink" href="javascript:switchPage('Save')">Save</a></td>
+                    <td><a id="settingslink" href="javascript:switchPage('Get')">Get</a></td>
+                    <td><a id="managelink" href="javascript:switchPage('Manage')">Manage</a></td>
+                </tr>
+            </table>
+        </div>
+        <div id="saveui" class="displayedPage">
+            <input type="text"
+                id="newProperty"
+                value="Type a property name"
+                class="textbox" />
+            <input type="text"
+                id="newValue"
+                value="Type a property value"
+                class="textbox" />
+            <input type="button" value="Save" onclick="SaveProperty()" />
+        </div>
+        <div id="getui" class="hiddenPage">
+            <input type="text"
+                id="storedProperty"
+                value="Type a property name"
+                class="textbox" />
+            <input type="button" value="Get" onclick="GetProperty()" />
+        </div>
+        <div id="manageui" class="hiddenPage">
+            <input type="text"
+                id="manageProperty"
+                value="Type a property name"
+                class="textbox" />
+            <input type="button" value="Remove" onclick="RemoveProperty()" />
+            <input type="button" value="Persist" onclick="PersistProperties()" />
+        </div>
+        <div id="footer" class="toast">
+            <span id="notice" style="font-weight: bold; margin-top: 5px"></span>
+            <br />
+            <span id="output"></span>
+        </div>
+    </div>
+</body>
+</html>
