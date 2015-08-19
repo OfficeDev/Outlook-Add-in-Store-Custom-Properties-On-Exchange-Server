@@ -76,17 +76,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\office365icons.eot" />
+    <Content Include="fonts\office365icons.ttf" />
+    <Content Include="fonts\office365icons.woff" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="AppRead\App.css" />
     <Content Include="AppRead\App.js" />
-    <Content Include="AppRead\Home\CustomProperties.html" />
-    <Content Include="AppRead\Home\CustomProperties.js" />
     <Content Include="AppRead\Home\Home.css" />
     <Content Include="AppRead\Home\Home.html" />
     <Content Include="AppRead\Home\Home.js" />
     <Content Include="Content\fabric.components.min.css" />
     <Content Include="Content\fabric.min.css" />
     <Content Include="Content\Office.css" />
+    <Content Include="fonts\office365icons.svg" />
     <Content Include="Images\Close.png" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />

@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿<!-- Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file. -->
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8" />
@@ -42,22 +43,38 @@
                    id="newValue"
                    value="Type a property value"
                    class="textbox" />
-            <input type="button" value="Save" onclick="SaveProperty()" />
+            <button class="ms-Button ms-Button--hero" onclick="SaveProperty()">
+                <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus2"></i></span>
+                <span class="ms-Button-label">Save</span>
+                <span class="ms-Button-description">Save a property</span>
+            </button>
         </div>
         <div id="getui" class="hiddenPage">
             <input type="text"
                    id="storedProperty"
                    value="Type a property name"
                    class="textbox" />
-            <input type="button" value="Get" onclick="GetProperty()" />
+            <button class="ms-Button ms-Button--hero" onclick="GetProperty()">
+                <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--arrowDown2"></i></span>
+                <span class="ms-Button-label">Get</span>
+                <span class="ms-Button-description">Get a property</span>
+            </button>
         </div>
         <div id="manageui" class="hiddenPage">
             <input type="text"
                    id="manageProperty"
                    value="Type a property name"
                    class="textbox" />
-            <input type="button" value="Remove" onclick="RemoveProperty()" />
-            <input type="button" value="Persist" onclick="PersistProperties()" />
+            <button class="ms-Button ms-Button--hero" onclick="RemoveProperty()">
+                <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--trash"></i></span>
+                <span class="ms-Button-label">Remove</span>
+                <span class="ms-Button-description">remove a property</span>
+            </button>
+            <button class="ms-Button ms-Button--hero" onclick="PersistProperties()">
+                <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--save"></i></span>
+                <span class="ms-Button-label">Persist</span>
+                <span class="ms-Button-description">Persist a property</span>
+            </button>
         </div>
         <div id="footer" class="toast">
             <span id="notice" style="font-weight: bold; margin-top: 5px"></span>
@@ -67,3 +84,31 @@
     </div>
 </body>
 </html>
+<!-- Outlook-Add-in-Store-Custom-Properties-On-Exchange-Server, https://github.com/OfficeDev/Outlook-Add-in-Store-Custom-Properties-On-Exchange-Server
+
+
+Copyright (c) Microsoft Corporation
+All rights reserved.
+
+MIT License:
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-->
+
