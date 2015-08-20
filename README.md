@@ -70,6 +70,7 @@ The following are common errors that can occur when you use Outlook Web App to t
 
 *Additional resources*
 
+* [More Add-in samples](https://github.com/OfficeDev?utf8=%E2%9C%93&query=-Add-in)
 * [CustomProperties object](http://msdn.microsoft.com/library/%2095a69bd6-c4dc-429a-8b27-e2b68f74f3e3)
 * [loadCustomPropertiesAsync method](http://msdn.microsoft.com/library/dfbec151-8ea7-4915-b723-09ea1396a261)
 * [get method](http://msdn.microsoft.com/library/3ab90551-138a-482d-9d93-4cdb20db193b)
