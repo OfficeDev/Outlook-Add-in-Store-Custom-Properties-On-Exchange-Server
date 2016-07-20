@@ -18,7 +18,7 @@ The JavaScript file contains click handlers for buttons in the UI to get, set, r
 This sample requires that you have the following:
 
 * Visual Studio 2012, with the apps for Office project templates. 
-* A computer running Exchange 2013 with at least one email account, or an Office 365 developer account. 
+* A computer running Exchange 2013 with at least one email account, or an Office 365 developer account. You can [join the Office 365 Developer Program and get a free 1 year subscription to Office 365](https://aka.ms/devprogramsignup).
 * Familiarity with JavaScript programming and web services. 
 * Internet Explorer 9 or Internet Explorer 10 Preview. 
 
