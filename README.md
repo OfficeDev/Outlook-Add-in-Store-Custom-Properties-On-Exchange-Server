@@ -78,3 +78,6 @@ The following are common errors that can occur when you use Outlook Web App to t
 * [remove method](http://msdn.microsoft.com/library/01983beb-766f-4308-9e23-e840e950f7e3)
 * [saveAsync method](http://msdn.microsoft.com/library/690d5aa9-62b5-4e5c-9548-62dfdbb5fa56)
 
+
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
