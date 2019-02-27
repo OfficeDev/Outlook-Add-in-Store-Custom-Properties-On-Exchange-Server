@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Outlook
+- Office 365
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 8/19/2015 11:13:31 AM
+---
 # Outlook-Add-in-Store-Custom-Properties-On-Exchange-Server
 This sample shows how to set a property on an email message and then store that property on your Exchange server so that you can retrieve it the next time the item is returned. For example, if your mail add-in for Outlook adds contacts to an external contacts database, you can set a property on an item to show that a contact was added so that you are not prompted to add the same contact a second time.
 
